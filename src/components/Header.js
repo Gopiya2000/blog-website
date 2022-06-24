@@ -1,7 +1,7 @@
 import React, { useState ,setValue} from 'react';
 import { AppBar, Box, Button, Tabs,Tab, Toolbar, Typography } from '@mui/material';
 const Header = () => {
-    const [value,useState] =useState();
+    const [value,setValue] =useState();
     return <AppBar
     position="sticky"
         style={{
